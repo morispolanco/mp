@@ -3,30 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dr. Moris Polanco combina filosofía e inteligencia artificial para crear soluciones educativas innovadoras que desarrollan el pensamiento crítico y la comprensión lectora.">
-    <meta name="keywords" content="filosofía, inteligencia artificial, educación, pensamiento crítico, comprensión lectora, desarrollo educativo, tecnología educativa">
+    <meta name="description" content="Dr. Moris Polanco combines philosophy and artificial intelligence to create innovative educational solutions that develop critical thinking and reading comprehension." data-lang-es="Dr. Moris Polanco combina filosofía e inteligencia artificial para crear soluciones educativas innovadoras que desarrollan el pensamiento crítico y la comprensión lectora.">
+    <meta name="keywords" content="philosophy, artificial intelligence, education, critical thinking, reading comprehension, educational development, educational technology" data-lang-es="filosofía, inteligencia artificial, educación, pensamiento crítico, comprensión lectora, desarrollo educativo, tecnología educativa">
     <meta name="author" content="Dr. Moris Polanco">
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://morispolanco.ai/">
-    <meta property="og:title" content="Moris Polanco, Ph.D. | Filosofía e IA para la Educación">
-    <meta property="og:description" content="Soluciones educativas innovadoras que combinan filosofía e IA para desarrollar el pensamiento crítico y la comprensión lectora.">
+    <meta property="og:title" content="Moris Polanco, Ph.D. | Philosophy and AI for Education" data-lang-es="Moris Polanco, Ph.D. | Filosofía e IA para la Educación">
+    <meta property="og:description" content="Innovative educational solutions combining philosophy and AI to develop critical thinking and reading comprehension." data-lang-es="Soluciones educativas innovadoras que combinan filosofía e IA para desarrollar el pensamiento crítico y la comprensión lectora.">
     <meta property="og:image" content="https://morispolanco.ai/mp.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://morispolanco.ai/">
-    <meta property="twitter:title" content="Moris Polanco, Ph.D. | Filosofía e IA para la Educación">
-    <meta property="twitter:description" content="Soluciones educativas innovadoras que combinan filosofía e IA para desarrollar el pensamiento crítico y la comprensión lectora.">
+    <meta property="twitter:title" content="Moris Polanco, Ph.D. | Philosophy and AI for Education" data-lang-es="Moris Polanco, Ph.D. | Filosofía e IA para la Educación">
+    <meta property="twitter:description" content="Innovative educational solutions combining philosophy and AI to develop critical thinking and reading comprehension." data-lang-es="Soluciones educativas innovadoras que combinan filosofía e IA para desarrollar el pensamiento crítico y la comprensión lectora.">
     <meta property="twitter:image" content="https://morispolanco.ai/mp.jpg">
     
-    <title>Moris Polanco, Ph.D. | Filosofía e IA para la Educación</title>
+    <title data-translation="page-title">Moris Polanco, Ph.D. | Philosophy and AI for Education</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script>
+        // Translations object
+        const translations = {
+            es: {
+                'portfolio-title': 'Portafolio',
+                'portfolio-1-title': 'Fábulas de Esopo',
+                'portfolio-1-description': 'Sitio web interactivo que ofrece fábulas clásicas de Esopo adaptadas para diferentes niveles de lectura con cuestionarios de comprensión.',
+                'portfolio-1-features': ['Estructura de 3 niveles: Principiante, Intermedio y Avanzado', 'Cinco fábulas por nivel con cuestionarios', 'Progresión basada en puntajes del 80%'],
+                'portfolio-1-cta': 'Visitar sitio',
+                'portfolio-2-title': 'LecturInteligente',
+                'portfolio-2-description': 'Plataforma impulsada por IA que proporciona ejercicios personalizados de comprensión lectora adaptados al nivel académico de cada estudiante.',
+                'portfolio-2-features': ['Textos personalizados generados por IA', 'Preguntas adaptativas para mejorar comprensión', 'Seguimiento del progreso y análisis para educadores'],
+                'portfolio-2-cta': 'Visitar sitio',
+                'cta-title': '¿Buscas impulsar el pensamiento crítico en tus estudiantes?',
+                'cta-description': 'Estoy listo para colaborar contigo en la creación de aplicaciones web inteligentes que transformen la forma en que los estudiantes aprenden y piensan.',
+                'cta-button': '¡Contáctame ahora!',
+                'contact-title': 'Contacto',
+                'contact-subtitle': 'Información de Contacto',
+                'contact-email-label': 'Correo electrónico',
+                'contact-linkedin-label': 'LinkedIn',
+                'services-title': 'Servicios',
+                'service-1-title': 'Desarrollo para Primaria',
+                'service-1-description': 'Soluciones interactivas y lúdicas diseñadas para introducir conceptos y habilidades de razonamiento lógico y mejorar la capacidad de entender y analizar textos sencillos en niños.',
+                'service-2-title': 'Creación para Secundaria',
+                'service-2-description': 'Herramientas que desafían a los estudiantes a analizar información, evaluar argumentos, resolver problemas complejos y comprender e interpretar textos más elaborados en diversas áreas del conocimiento.',
+                'service-3-title': 'Diseño para Universitarios',
+                'service-3-description': 'Plataformas que promueven el debate, la investigación crítica, la aplicación de principios filosóficos y lógicos a problemas del mundo real, y el análisis profundo y la interpretación de textos académicos complejos.',
+                'service-4-title': 'Consultoría Educativa',
+                'service-4-description': 'Asesoramiento estratégico para instituciones educativas que buscan integrar la inteligencia artificial de manera efectiva en sus programas de estudio para potenciar estas habilidades fundamentales.',
+                'page-title': 'Moris Polanco, Ph.D. | Filosofía e IA para la Educación',
+                'hero-title': '<span class="text-primary-500">Filosofía</span> e <span class="text-primary-500">Inteligencia Artificial</span> para la Educación',
+                'hero-description': 'Aplicaciones inteligentes con una perspectiva filosófica única para el desarrollo del pensamiento crítico y la comprensión de lectura.',
+                'hero-cta': '¡Hablemos de tu proyecto educativo!',
+                'about-title': 'Sobre mí',
+                'about-description-1': 'Soy un profesional que combina una sólida formación en filosofía con la experiencia en desarrollo web e inteligencia artificial, con una especialización en la creación de aplicaciones diseñadas para fomentar el pensamiento crítico y la comprensión de lectura en estudiantes de todas las edades.',
+                'about-description-2': 'Mi enfoque único se basa en la convicción de que la filosofía proporciona las herramientas analíticas y conceptuales necesarias para desarrollar aplicaciones de IA que realmente impulsen la capacidad de razonamiento, análisis y comprensión de los estudiantes.',
+                'about-subtitle': 'La conexión esencial: filosofía e inteligencia artificial para la educación',
+                'about-description-3': 'La inteligencia artificial ofrece oportunidades sin precedentes para personalizar el aprendizaje y desarrollar habilidades de pensamiento crítico y comprensión de lectura. Mi formación filosófica me permite diseñar aplicaciones de IA que no solo presentan información, sino que también fomentan la reflexión, el cuestionamiento, la evaluación crítica y la interpretación profunda de los textos por parte de los estudiantes.'
+            },
+            en: {
+                'portfolio-title': 'Portfolio',
+                'portfolio-1-title': 'Aesop\'s Fables',
+                'portfolio-1-description': 'Interactive website offering Aesop\'s classic fables adapted for different reading levels with comprehension quizzes.',
+                'portfolio-1-features': ['3-level structure: Beginner, Intermediate, and Advanced', 'Five fables per level with quizzes', 'Progression based on 80% scores'],
+                'portfolio-1-cta': 'Visit site',
+                'portfolio-2-title': 'SmartReader',
+                'portfolio-2-description': 'AI-powered platform that provides personalized reading comprehension exercises adapted to each student\'s academic level.',
+                'portfolio-2-features': ['AI-generated personalized texts', 'Adaptive questions to improve comprehension', 'Progress tracking and analytics for educators'],
+                'portfolio-2-cta': 'Visit site',
+                'cta-title': 'Looking to boost critical thinking in your students?',
+                'cta-description': 'I\'m ready to collaborate with you in creating intelligent web applications that transform how students learn and think.',
+                'cta-button': 'Contact me now!',
+                'contact-title': 'Contact',
+                'contact-subtitle': 'Contact Information',
+                'contact-email-label': 'Email',
+                'contact-linkedin-label': 'LinkedIn',
+                'services-title': 'Services',
+                'service-1-title': 'Primary Education Development',
+                'service-1-description': 'Interactive and playful solutions designed to introduce logical reasoning concepts and skills and improve children\'s ability to understand and analyze simple texts.',
+                'service-2-title': 'Secondary Education Creation',
+                'service-2-description': 'Tools that challenge students to analyze information, evaluate arguments, solve complex problems, and comprehend and interpret more elaborate texts across various areas of knowledge.',
+                'service-3-title': 'University Level Design',
+                'service-3-description': 'Platforms that promote debate, critical research, application of philosophical and logical principles to real-world problems, and deep analysis and interpretation of complex academic texts.',
+                'service-4-title': 'Educational Consulting',
+                'service-4-description': 'Strategic advice for educational institutions seeking to effectively integrate artificial intelligence into their curricula to enhance these fundamental skills.',
+                'page-title': 'Moris Polanco, Ph.D. | Philosophy and AI for Education',
+                'hero-title': '<span class="text-primary-500">Philosophy</span> and <span class="text-primary-500">Artificial Intelligence</span> for Education',
+                'hero-description': 'Intelligent applications with a unique philosophical perspective for developing critical thinking and reading comprehension.',
+                'hero-cta': 'Let\'s talk about your educational project!',
+                'about-title': 'About me',
+                'about-description-1': 'I am a professional who combines a solid background in philosophy with experience in web development and artificial intelligence, specializing in creating applications designed to foster critical thinking and reading comprehension in students of all ages.',
+                'about-description-2': 'My unique approach is based on the conviction that philosophy provides the analytical and conceptual tools necessary to develop AI applications that truly enhance students\'s reasoning, analysis, and comprehension abilities.',
+                'about-subtitle': 'The Essential Connection: Philosophy and Artificial Intelligence for Education',
+                'about-description-3': 'Artificial intelligence offers unprecedented opportunities to personalize learning and develop critical thinking and reading comprehension skills. My philosophical background allows me to design AI applications that not only present information but also encourage reflection, questioning, critical evaluation, and deep interpretation of texts by students.'
+            }
+        };
+
+        // Language switcher function
+        function switchLanguage(lang) {
+            document.documentElement.lang = lang;
+            
+            // Update all elements with data-lang attributes
+            document.querySelectorAll('[data-lang-' + lang + ']').forEach(element => {
+                if (element.tagName.toLowerCase() === 'meta') {
+                    if (element.getAttribute('content')) {
+                        element.setAttribute('content', element.getAttribute('data-lang-' + lang));
+                    }
+                } else {
+                    element.textContent = element.getAttribute('data-lang-' + lang);
+                }
+            });
+
+            // Update elements with translations
+            Object.keys(translations[lang]).forEach(key => {
+                const element = document.querySelector('[data-translation="' + key + '"]');
+                if (element) {
+                    if (element.tagName.toLowerCase() === 'title') {
+                        document.title = translations[lang][key];
+                    } else {
+                        element.innerHTML = translations[lang][key];
+                    }
+                }
+            });
+
+            // Update Schema.org data
+            const schemaScript = document.getElementById('schemaData');
+            if (schemaScript) {
+                const schemaData = JSON.parse(schemaScript.textContent);
+                if (lang === 'es') {
+                    schemaData.jobTitle = {
+                        '@language': 'es',
+                        '@value': 'Consultor Educativo y Desarrollador de Soluciones de IA'
+                    };
+                    schemaData.description = {
+                        '@language': 'es',
+                        '@value': 'Especialista en la integración de filosofía e inteligencia artificial para el desarrollo educativo'
+                    };
+                    schemaData.knowsAbout = ['Filosofía', 'Inteligencia Artificial', 'Educación', 'Pensamiento Crítico', 'Comprensión Lectora'];
+                    schemaData.offers.name = {
+                        '@language': 'es',
+                        '@value': 'Servicios de Consultoría Educativa y Desarrollo de IA'
+                    };
+                }
+                schemaScript.textContent = JSON.stringify(schemaData, null, 2);
+            }
+        }
+
+        // Initialize language switchers
+        document.addEventListener('DOMContentLoaded', () => {
+            const languageSelector = document.getElementById('languageSelector');
+            const languageSelectorMobile = document.getElementById('languageSelectorMobile');
+
+            languageSelector.addEventListener('change', (e) => {
+                switchLanguage(e.target.value);
+                languageSelectorMobile.value = e.target.value;
+            });
+
+            languageSelectorMobile.addEventListener('change', (e) => {
+                switchLanguage(e.target.value);
+                languageSelector.value = e.target.value;
+            });
+        });
+
         tailwind.config = {
             darkMode: 'class',
             theme: {
@@ -96,7 +238,7 @@
 </head>
 <body class="font-sans bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
     <!-- Schema.org structured data -->
-    <script type="application/ld+json">
+    <script type="application/ld+json" id="schemaData">
     {
       "@context": "https://schema.org",
       "@type": "Person",
@@ -105,12 +247,21 @@
       "honorificSuffix": "Ph.D.",
       "image": "https://morispolanco.ai/mp.jpg",
       "url": "https://morispolanco.ai",
-      "jobTitle": "Consultor Educativo y Desarrollador de Soluciones de IA",
-      "description": "Especialista en la integración de filosofía e inteligencia artificial para el desarrollo educativo",
-      "knowsAbout": ["Filosofía", "Inteligencia Artificial", "Educación", "Pensamiento Crítico", "Comprensión Lectora"],
+      "jobTitle": {
+        "@language": "en",
+        "@value": "Educational Consultant and AI Solutions Developer"
+      },
+      "description": {
+        "@language": "en",
+        "@value": "Specialist in integrating philosophy and artificial intelligence for educational development"
+      },
+      "knowsAbout": ["Philosophy", "Artificial Intelligence", "Education", "Critical Thinking", "Reading Comprehension"],
       "offers": {
         "@type": "Offer",
-        "name": "Servicios de Consultoría Educativa y Desarrollo de IA"
+        "name": {
+          "@language": "en",
+          "@value": "Educational Consulting and AI Development Services"
+        }
       }
     }
     </script>
@@ -121,12 +272,16 @@
             <div class="flex justify-between items-center">
                 <a href="#" class="text-xl font-bold text-primary-500" title="Inicio - Dr. Moris Polanco">Dr. Moris Polanco</a>
                 
-                <div class="hidden md:flex space-x-8">
-                    <a href="#inicio" class="hover:text-primary-500 transition-colors" title="Ir a la sección de inicio">Inicio</a>
-                    <a href="#sobre-mi" class="hover:text-primary-500 transition-colors" title="Conoce más sobre Dr. Moris Polanco">Sobre mí</a>  
-                    <a href="#servicios" class="hover:text-primary-500 transition-colors" title="Explora nuestros servicios educativos">Servicios</a>
-                    <a href="#portafolio" class="hover:text-primary-500 transition-colors" title="Ver proyectos y casos de éxito">Portafolio</a>
-                    <a href="#contacto" class="hover:text-primary-500 transition-colors" title="Ponte en contacto con nosotros">Contacto</a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#inicio" class="hover:text-primary-500 transition-colors" data-lang-es="Inicio" data-lang-en="Home">Inicio</a>
+                    <a href="#sobre-mi" class="hover:text-primary-500 transition-colors" data-lang-es="Sobre mí" data-lang-en="About me">Sobre mí</a>  
+                    <a href="#servicios" class="hover:text-primary-500 transition-colors" data-lang-es="Servicios" data-lang-en="Services">Servicios</a>
+                    <a href="#portafolio" class="hover:text-primary-500 transition-colors" data-lang-es="Portafolio" data-lang-en="Portfolio">Portafolio</a>
+                    <a href="#contacto" class="hover:text-primary-500 transition-colors" data-lang-es="Contacto" data-lang-en="Contact">Contacto</a>
+                    <select id="languageSelector" class="bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500">
+                        <option value="es">Español</option>
+                        <option value="en">English</option>
+                    </select>
                 </div>
                 
                 <button id="mobile-menu-button" class="md:hidden">
@@ -138,11 +293,15 @@
             
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="md:hidden hidden mt-3 pb-2">
-                <a href="#inicio" class="block py-2 hover:text-primary-500 transition-colors">Inicio</a>
-                <a href="#sobre-mi" class="block py-2 hover:text-primary-500 transition-colors">Sobre mí</a>
-                <a href="#servicios" class="block py-2 hover:text-primary-500 transition-colors">Servicios</a>
-                <a href="#portafolio" class="block py-2 hover:text-primary-500 transition-colors">Portafolio</a>
-                <a href="#contacto" class="block py-2 hover:text-primary-500 transition-colors">Contacto</a>
+                <a href="#inicio" class="block py-2 hover:text-primary-500 transition-colors" data-lang-es="Inicio" data-lang-en="Home">Inicio</a>
+                <a href="#sobre-mi" class="block py-2 hover:text-primary-500 transition-colors" data-lang-es="Sobre mí" data-lang-en="About me">Sobre mí</a>
+                <a href="#servicios" class="block py-2 hover:text-primary-500 transition-colors" data-lang-es="Servicios" data-lang-en="Services">Servicios</a>
+                <a href="#portafolio" class="block py-2 hover:text-primary-500 transition-colors" data-lang-es="Portafolio" data-lang-en="Portfolio">Portafolio</a>
+                <a href="#contacto" class="block py-2 hover:text-primary-500 transition-colors" data-lang-es="Contacto" data-lang-en="Contact">Contacto</a>
+                <select id="languageSelectorMobile" class="mt-4 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 w-full">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
             </div>
         </div>
     </nav>
@@ -152,13 +311,13 @@
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 md:pr-12">
-                    <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight" data-translation="hero-title">
                         <span class="text-primary-500">Filosofía</span> e <span class="text-primary-500">Inteligencia Artificial</span> para la Educación
                     </h1>
-                    <p class="text-lg md:text-xl mb-8 text-gray-600 dark:text-gray-300">
+                    <p class="text-lg md:text-xl mb-8 text-gray-600 dark:text-gray-300" data-translation="hero-description">
                         Aplicaciones inteligentes con una perspectiva filosófica única para el desarrollo del pensamiento crítico y la comprensión de lectura.
                     </p>
-                    <a href="#contacto" class="inline-block bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 px-8 rounded-lg shadow-lg transition-all transform hover:-translate-y-1">
+                    <a href="#contacto" class="inline-block bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 px-8 rounded-lg shadow-lg transition-all transform hover:-translate-y-1" data-translation="hero-cta">
                         ¡Hablemos de tu proyecto educativo!
                     </a>
                 </div>
@@ -178,23 +337,23 @@
     <!-- About Section -->
     <section id="sobre-mi" class="py-16 bg-gray-50 dark:bg-gray-800">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">Sobre mí</h2>
+            <h2 class="text-3xl font-bold text-center mb-12" data-translation="about-title">Sobre mí</h2>
             <div class="flex flex-col md:flex-row gap-12 items-center">
                 <div class="md:w-1/3">
                     <div class="rounded-full overflow-hidden w-64 h-64 mx-auto shadow-xl border-4 border-primary-200 dark:border-primary-700">
-                        <img src="mp.jpg" alt="Dr. Moris Polanco - Experto en Filosofía e IA para Educación" title="Dr. Moris Polanco" class="w-full h-full object-cover">
+                        <img src="mp.jpg" alt="Dr. Moris Polanco - Expert in Philosophy and AI for Education" data-lang-es="Dr. Moris Polanco - Experto en Filosofía e IA para Educación" title="Dr. Moris Polanco" class="w-full h-full object-cover">
                     </div>
                 </div>
                 <div class="md:w-2/3">
                     <h3 class="text-2xl font-semibold mb-4 text-primary-500">Moris Polanco, Ph.D.</h3>
-                    <p class="mb-4 text-gray-600 dark:text-gray-300">
+                    <p class="mb-4 text-gray-600 dark:text-gray-300" data-translation="about-description-1">
                         Soy un profesional que combina una sólida formación en filosofía con la experiencia en desarrollo web e inteligencia artificial, con una especialización en la creación de aplicaciones diseñadas para fomentar el pensamiento crítico y la comprensión de lectura en estudiantes de todas las edades.
                     </p>
-                    <p class="mb-4 text-gray-600 dark:text-gray-300">
+                    <p class="mb-4 text-gray-600 dark:text-gray-300" data-translation="about-description-2">
                         Mi enfoque único se basa en la convicción de que la filosofía proporciona las herramientas analíticas y conceptuales necesarias para desarrollar aplicaciones de IA que realmente impulsen la capacidad de razonamiento, análisis y comprensión de los estudiantes.
                     </p>
-                    <h4 class="text-xl font-semibold mt-6 mb-3">La conexión esencial: filosofía e inteligencia artificial para la educación</h4>
-                    <p class="text-gray-600 dark:text-gray-300">
+                    <h4 class="text-xl font-semibold mt-6 mb-3" data-translation="about-subtitle">La conexión esencial: filosofía e inteligencia artificial para la educación</h4>
+                    <p class="text-gray-600 dark:text-gray-300" data-translation="about-description-3">
                         La inteligencia artificial ofrece oportunidades sin precedentes para personalizar el aprendizaje y desarrollar habilidades de pensamiento crítico y comprensión de lectura. Mi formación filosófica me permite diseñar aplicaciones de IA que no solo presentan información, sino que también fomentan la reflexión, el cuestionamiento, la evaluación crítica y la interpretación profunda de los textos por parte de los estudiantes.
                     </p>
                 </div>
@@ -205,7 +364,7 @@
     <!-- Services Section -->
     <section id="servicios" class="py-16">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">Servicios</h2>
+            <h2 class="text-3xl font-bold text-center mb-12" data-translation="services-title">Servicios</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="p-6 rounded-lg shadow-lg bg-white dark:bg-gray-800">
                     <div class="w-16 h-16 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mb-6">
@@ -213,8 +372,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Desarrollo para Primaria</h3>
-                    <p class="text-gray-600 dark:text-gray-300">
+                    <h3 class="text-xl font-semibold mb-4" data-translation="service-1-title">Desarrollo para Primaria</h3>
+                    <p class="text-gray-600 dark:text-gray-300" data-translation="service-1-description">
                         Soluciones interactivas y lúdicas diseñadas para introducir conceptos y habilidades de razonamiento lógico y mejorar la capacidad de entender y analizar textos sencillos en niños.
                     </p>
                 </div>
@@ -225,8 +384,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Creación para Secundaria</h3>
-                    <p class="text-gray-600 dark:text-gray-300">
+                    <h3 class="text-xl font-semibold mb-4" data-translation="service-2-title">Creación para Secundaria</h3>
+                    <p class="text-gray-600 dark:text-gray-300" data-translation="service-2-description">
                         Herramientas que desafían a los estudiantes a analizar información, evaluar argumentos, resolver problemas complejos y comprender e interpretar textos más elaborados en diversas áreas del conocimiento.
                     </p>
                 </div>
@@ -237,8 +396,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Diseño para Universitarios</h3>
-                    <p class="text-gray-600 dark:text-gray-300">
+                    <h3 class="text-xl font-semibold mb-4" data-translation="service-3-title">Diseño para Universitarios</h3>
+                    <p class="text-gray-600 dark:text-gray-300" data-translation="service-3-description">
                         Plataformas que promueven el debate, la investigación crítica, la aplicación de principios filosóficos y lógicos a problemas del mundo real, y el análisis profundo y la interpretación de textos académicos complejos.
                     </p>
                 </div>
@@ -249,8 +408,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Consultoría Educativa</h3>
-                    <p class="text-gray-600 dark:text-gray-300">
+                    <h3 class="text-xl font-semibold mb-4" data-translation="service-4-title">Consultoría Educativa</h3>
+                    <p class="text-gray-600 dark:text-gray-300" data-translation="service-4-description">
                         Asesoramiento estratégico para instituciones educativas que buscan integrar la inteligencia artificial de manera efectiva en sus programas de estudio para potenciar estas habilidades fundamentales.
                     </p>
                 </div>
